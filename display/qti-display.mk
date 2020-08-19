@@ -22,5 +22,14 @@ include hardware/qcom/display/config/display-board.mk
 include hardware/qcom/display/config/display-product.mk
 include vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk
 
+# Packages
+PRODUCT_PACKAGES += \
+    libtinyxml \
+    vendor.qti.hardware.display.mapper@1.0.vendor
+
+# Properties
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
+
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/qcom/common/display/display-vendor.mk)

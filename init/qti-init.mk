@@ -12,20 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Board Definitions
-LOC_HIDL_VERSION = 3.0
-
-# Include GPS HAL makefiles.
-include hardware/qcom/gps/gps_vendor_board.mk
-include hardware/qcom/gps/gps_vendor_product.mk
-
-# Overlays
+# Init
 PRODUCT_PACKAGES += \
-    QCOMGPSFrameworksOverlay
-
-# Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
-
-# Get non-open-source specific aspects.
-$(call inherit-product-if-exists, vendor/qcom/common/gps/gps-vendor.mk)
+    init.class_main.sh \
+    init.msm.usb.configfs.rc \
+    init.qcom.factory.rc \
+    init.qcom.class_core.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.rc \
+    init.qcom.sensors.sh \
+    init.qcom.sh \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh \
+    init.qti.ims.sh \
+    init.recovery.qcom.rc \
+    ueventd.qcom.rc

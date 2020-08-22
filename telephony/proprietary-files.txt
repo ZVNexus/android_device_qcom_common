@@ -63,7 +63,6 @@ product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|75e8a8
 -product/framework/uimremoteserverlibrary.jar
 -product/framework/uimremotesimlocklibrary.jar
 -product/framework/uimservicelibrary.jar
--product/framework/vendor.qti.data.factory-V1.0-java.jar
 -product/framework/vendor.qti.data.factory-V2.0-java.jar
 -product/framework/vendor.qti.data.factory-V2.1-java.jar
 -product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar
@@ -94,7 +93,6 @@ product/lib/lib-imsvt.so
 product/lib/lib-imsvtutils.so
 product/lib/libtrigger-handler.so
 product/lib/libupdateprof.qti.so
-product/lib/vendor.qti.data.factory@1.0.so
 product/lib/vendor.qti.data.factory@2.0.so
 product/lib/vendor.qti.data.factory@2.1.so
 product/lib/vendor.qti.data.slm@1.0.so
@@ -150,7 +148,6 @@ product/lib64/lib-imsvt.so
 product/lib64/lib-imsvtutils.so
 product/lib64/libtrigger-handler.so
 product/lib64/libupdateprof.qti.so
-product/lib64/vendor.qti.data.factory@1.0.so
 product/lib64/vendor.qti.data.factory@2.0.so
 product/lib64/vendor.qti.data.factory@2.1.so
 product/lib64/vendor.qti.data.slm@1.0.so

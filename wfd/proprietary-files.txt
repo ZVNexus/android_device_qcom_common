@@ -59,6 +59,7 @@ vendor/etc/init/wfdvndservice.rc
 vendor/etc/wfdconfig.xml
 vendor/lib/libFileMux_proprietary.so
 vendor/lib/libOmxMux_proprietary.so
+vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libmmparser_lite_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so

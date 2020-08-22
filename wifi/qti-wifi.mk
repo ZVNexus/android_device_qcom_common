@@ -28,6 +28,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
+    libqsap_sdk \
     libwifi-hal-qcom \
     wpa_cli \
     wpa_supplicant \

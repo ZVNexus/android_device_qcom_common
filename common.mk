@@ -51,6 +51,10 @@ ifneq (,$(filter telephony, $(TARGET_COMMON_QTI_COMPONENTS)))
 include $(DEVICE_PATH)/telephony/qti-telephony.mk
 endif
 
+ifneq (,$(filter wlan, $(TARGET_COMMON_QTI_COMPONENTS)))
+include $(DEVICE_PATH)/wlan/qti-wlan.mk
+endif
+
 # 845 series and newer
 ifneq (,$(filter audio, $(TARGET_COMMON_QTI_COMPONENTS)))
 include $(DEVICE_PATH)/audio/qti-audio.mk
